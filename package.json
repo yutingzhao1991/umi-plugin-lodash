@@ -1,0 +1,25 @@
+{
+  "name": "umi-plugin-lodash",
+  "version": "1.0.0",
+  "description": "Easy to ues lodash in UmiJS.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "babel src --watch --presets=es2015 --out-dir lib",
+    "build": "babel src --presets=es2015 --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yutingzhao1991/umi-plugin-lodash.git"
+  },
+  "author": "yutingzhao1991",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yutingzhao1991/umi-plugin-lodash/issues"
+  },
+  "homepage": "https://github.com/yutingzhao1991/umi-plugin-lodash#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
