@@ -1,1 +1,4 @@
 node_modules
+.umi
+.umi_production
+dist

@@ -1,3 +1,5 @@
+import { uniq } from 'umi/lodash';
+
 export default () => {
-  return <div>hello world!</div>;
+  return <div>{uniq([1, 2, 2])}</div>;
 };
